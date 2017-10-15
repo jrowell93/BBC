@@ -2,13 +2,13 @@
 <html>
     <head>
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="/favicon.ico" type="image/x-icon">
             <title>Technology-BBC NEWS</title>
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <style type="text/css">
             body{
-                margin: 0;
+                margin: auto;
                 padding:0;
+                width:98%;
             }
             header{
                 margin: 0;
@@ -47,7 +47,7 @@
                 display:flex;
                 flex-direction: row;
                 align-items: center;
-                margin-left: -150px;
+                margin-left: -130px;
             }
             ul li{
                 font-size: 16px;
@@ -74,7 +74,7 @@
             .newsdiv{
                 margin:0;
                 padding: 0;
-                height: 100px;
+                height: 70px;
                 background-color: #BF1420;
                 display: flex;
             }
@@ -86,7 +86,7 @@
                 align-items: center;
                 font-weight: bold;
                 padding-left: 20px;
-                padding-top: 10px;
+                padding-top: 3px;
                 
             }
             .nav{
@@ -106,9 +106,19 @@
                 flex-direction: row;
                 align-items:center;
             }
+            .nav a{
+                text-decoration: none;
+                color:white;
+                font-family:'Roboto', sans-serif; 
+            }
+            .nav  li a:hover{
+                text-decoration: underline;
+                color:lightgrey;
+            }
         </style>
     </head>
 <body>
+<!-this is the top header-->
         <header> 
             
                 <ul class="header">
@@ -116,38 +126,44 @@
                     <li><p>    |</p></li>
                     <li><img src="login.png" class="login"></li>
                     <li><a href="#">Sign In             |</a></li>
-                    <li>News    |</li>
-                    <li>Sport   |</li>
-                    <li>Weather |</li>
-                    <li>Shop    |</li>
-                    <li>Earth   |</li>
-                    <li>More    |</li>
+                    <li><a href="#"> News           |</a></li>
+                    <li><a href="#"> Sport          |</a></li>
+                    <li><a href="#"> Weather        |</a></li>
+                    <li><a href="#"> Shop           |</a></li>
+                    <li><a href="#"> Earth          |</a></li>
+                    <li><a href="#"> More           |</a></li>
                 </ul>
                     <form>
                     <input type="text" placeholder="Search " class="searchbar">
                     <button type="submit" class="searchbutton">&#128269;</button>
                     </form>
         </header>
-    
+<!-This is the middle header bar-->    
             <div class="newsdiv">
                     <h1 class="news">NEWS</h1>
             </div>
+<!-This is the lower nav bar-->
         <nav class="nav">
                 <ul>
-                    <li>Home    |</li>
-                    <li>Video   |</li>
-                    <li>World   |</li>
-                    <li>US & Candy  |</li>
-                    <li>UK  |</li>
-                    <li>Business    |</li>
-                    <li>Tech    |</li>
-                    <li>Science |</li>
-                    <li>Magazine    |</li>
-                    <li>Entertainment & Arts    |</li>
-                    <li>Health    |</li>
-                    <li>More    |</li>
+                    <li><a href="#">Home    |</a></li>
+                    <li><a href="#">Video   |</a></li>
+                    <li><a href="#">World   |</a></li>
+                    <li><a href="#">US & Candy  |</a></li>
+                    <li><a href="#">UK  |</a></li>
+                    <li><a href="#">Business    |</a></li>
+                    <li><a href="#">Tech    |</a></li>
+                    <li><a href="#">Science |</a></li>
+                    <li><a href="#">Magazine    |</a></li>
+                    <li><a href="#">Entertainment & Arts    |</a></li>
+                    <li><a href="#">Health    |</a></li>
+                    <li><a href="#">More    |</a></li>
                 </ul>
         </nav>
+<!-this is the main section of the site-->
+    <main>
+        <article class="one">
+        </article>
+    </main>
                     
 </body>
 </html>
